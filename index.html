@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 ie-lt10 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<title>Recondis - Superior tehnologic</title>
+<link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+<link rel='stylesheet' href='assets/css/style.css'>
+<link rel='stylesheet' href='assets/css/color.css'>
+<link rel='stylesheet' href='assets/css/custom.css'>
+<link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body class="intro-in"> <!-- control class -->
+
+  <!-- site wrap -->
+  <div id="site-wrap">
+
+  <!-- loader -->
+  <div id="loader">
+    <div id="loader-ele">
+      <div class="spinner"></div>
+    </div>
+  </div>
+  <!-- /loader -->
+
+  <!-- /demo panel 
+  <div id="demo-panel">
+    <div class="options-color">
+      <h4 class="options-title">Culoare</h4>
+      <ul class="options-ul">
+        <li><a href="#" data-color="default"></a></li>
+        <li><a href="#" data-color="red"></a></li>
+        <li><a href="#" data-color="green"></a></li>
+        <li><a href="#" data-color="blue"></a></li>
+        <br>
+        <li><a href="#" data-color="purple"></a></li>
+        <li><a href="#" data-color="pink"></a></li>
+        <li><a href="#" data-color="brown"></a></li>
+      </ul>
+    </div>
+    <div class="options-overlay">
+      <h4 class="options-title">Fundal</h4>
+      <ul class="options-ul">
+        <li><a href="#" data-overlay="overlay"></a></li>
+        <li><a href="#" data-overlay="gradient gradient1"></a></li>
+        <br>
+        <li><a href="#" data-overlay="gradient gradient2"></a></li>
+        <li><a href="#" data-overlay="gradient gradient3"></a></li>
+      </ul>
+    </div>
+    <a href="#" class="demo-panel-toggle">
+      <i class="icons fa fa-cog fa-spin"></i>
+    </a>
+  </div>
+  <!-- /demo panel -->
+
+    <!-- site header -->
+    <header id="site-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <!-- navbar logo -->
+            <a href="#" title="" class="navbar-logo">
+              <img src="assets/img/navbar-logo.png" alt="">
+            </a>
+            <!-- /navbar logo -->
+            <a href="#" title="" class="menu-toggle">
+              <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <i id="volume"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /site header -->
+
+    <!-- menu -->
+    <nav class="menu">
+      <div class="tb">
+        <div class="tb-cell">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="menu-ul">
+                  <li>
+                    <a href="#" class="active" data-section="#intro">Acasa</a> <!-- data-section for the section id -->
+                    <p>Pagina principala</p>
+                  </li>
+                  <li>
+                    <a href="#" data-section="#about">Despre noi</a> <!-- data-section for the section id -->
+                    <p>Povestea, pe scurt</p>
+                  </li>
+                  <li>
+                    <a href="#" data-section="#services">Servicii</a> <!-- data-section for the section id -->
+                    <p>Tehnologie superioara</p>
+                  </li>
+                  <li>
+                    <a href="#" data-section="#contact">Contact</a> <!-- data-section for the section id -->
+                    <p>Ia legatura cu noi</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /menu -->
+
+    <!-- subscribe -->
+    <div id="subscribe">
+      <div class="tb">
+        <div class="tb-cell">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <form id="subscribe-form">
+                  <div class="form-group">
+                    <input type="email" name="subscribeFormEmail" id="subscribeFormEmail" class="form-control input-lg" placeholder="Adresa ta de email" required>
+                  </div>
+                  <button type="submit" name="subscribeFormSubmit" id="subscribeFormSubmit" class="btn btn-lg btn-block btn-light btn-outline1">Anunta-ma</button>
+                  <div class="form-notice subscribe-notice"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /subscribe -->
+
+    <!-- site main -->
+    <main id="site-main">
+
+      <!-- background -->
+      <div id="background">
+        <div id="img"></div>
+        <div id="video"></div>
+        <div id="overlay"></div>
+      </div>
+      <!-- /background -->
+
+      <!-- intro -->
+      <section id="intro" class="active">
+        <!-- countdown -->
+        <div id="countdown"></div>
+        <!-- /countdown -->
+        <div class="section-wrap">
+          <div class="scroll-block">
+            <div class="tb">
+              <div class="tb-cell">
+                <div class="container">
+                  <!-- section heading -->
+                  <div class="row section-heading">
+                    <div class="col-xs-12">
+                      <h1 class="animation section-title"><span class="color">Super</span>ior<br> Tehno<span class="color">logic</span></h1> <!-- section title -->
+                    </div>
+                  </div>
+                  <!-- /section heading -->
+                  <!-- section body -->
+                  <div class="row section-body">
+                    <div class="col-xs-12">
+                      <p class="animation">Pregateste-te, lansarea este curand. Inscrie-te la email-urile noastre si vei fi primul care o sa afle cand devenim operationali.</p>
+                    </div>
+                  </div>
+                  <!-- /section body -->
+                  <!-- section footer -->
+                  <div class="row section-footer">
+                    <div class="col-xs-12">
+                      <a href="#" title="" class="animation btn btn-lg btn-theme" data-to="subscribe">Anunta-ma</a>
+                      <a href="#" title="" class="animation btn btn-lg btn-light btn-outline1" data-section="#about">Mai mult</a>
+                    </div>
+                  </div>
+                  <!-- /section footer -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /intro -->
+
+      <!-- about -->
+      <section id="about">
+        <div class="section-wrap">
+          <div class="scroll-block">
+            <div class="tb">
+              <div class="tb-cell">
+                <div class="container">
+                  <!-- section heading -->
+                  <div class="row section-heading">
+                    <div class="col-xs-12">
+                      <h2 class="animation section-title">De<span class="color">spre</span> noi</h2> <!-- section title -->
+                    </div>
+                  </div>
+                  <!-- /section heading -->
+                   <!-- section body -->
+                  <div class="row section-body">
+                    <div class="col-md-6">
+                      <p class="animation">Suntem o companie care are ca obiect de munca proiectarea, producerea si comercializarea de utilaje reciclare pentru colectarea si compactarea deseurilor reciclabile.
+                      <p class="animation">Recondis isi desfasoara activitatea la nivel national oferindu-va o gama larga de utilaje pentru reciclare, precum: prescontainere, prese de balotat deseuri, tocatoare deseuri, prese stationare, statii de transfer deseuri, incarcatoare mobile.</p>
+                      <p class="animation">Prescontainerele Recondis servesc la depozitarea, compactarea si transportul deseurilor, au o constructie intarita si se bucura de o capacitate de incarcare foarte mare.</p>
+                    </div>
+                    <div class="col-md-5 col-md-offset-1">
+                      <!-- skill bar -->
+                      <div class="skill-bar">
+                        <div class="animation progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"> <!-- edit aria-valuenow number -->
+                            <h4 class="progress-bar-title">Reciclare</h4> <!-- skill name -->
+                            <span>95%</span> <!-- skill number -->
+                          </div>
+                        </div>
+                        <div class="animation progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"> <!-- edit aria-valuenow number -->
+                            <h4 class="progress-bar-title">Tehnologie</h4> <!-- skill name -->
+                            <span>80%</span> <!-- skill number -->
+                          </div>
+                        </div>
+                        <div class="animation progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"> <!-- edit aria-valuenow number -->
+                            <h4 class="progress-bar-title">Promptitudine</h4> <!-- skill name -->
+                            <span>90%</span> <!-- skill number -->
+                          </div>
+                        </div>
+                        <div class="animation progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"> <!-- edit aria-valuenow number -->
+                            <h4 class="progress-bar-title">Reconditionari</h4> <!-- skill name -->
+                            <span>85%</span> <!-- skill number -->
+                          </div>
+                        </div>
+                        <div class="animation progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"> <!-- edit aria-valuenow number -->
+                            <h4 class="progress-bar-title">Suport</h4> <!-- skill name -->
+                            <span>95%</span> <!-- skill number -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /skill bar -->
+                    </div>
+                  </div>
+                  <!-- /section body -->
+                  <!-- section footer -->
+                  <div class="row section-footer">
+                    <div class="col-xs-12">
+                      <a href="#" title="" class="animation btn btn-lg btn-theme" data-section="#services">Servicii</a>
+                    </div>
+                  </div>
+                  <!-- /section footer -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- services -->
+      <section id="services">
+        <div class="section-wrap">
+          <div class="scroll-block">
+            <div class="tb">
+              <div class="tb-cell">
+                <div class="container">
+                  <!-- section heading -->
+                  <div class="row section-heading">
+                    <div class="col-xs-12">
+                      <h2 class="animation section-title">Ser<span class="color">viciile</span> Noastre</h2> <!-- section title -->
+                    </div>
+                  </div>
+                  <!-- /section heading -->
+                  <!-- section body -->
+                  <div class="row section-body">
+                    <div class="col-xs-12">
+                      <!-- services slider -->
+                      <div id="services-slider" class="animation bfc-slider single-slider">
+                        <!-- services grid -->
+                        <div class="services-grid">
+                          <div class="services-grid-img" data-img="assets/img/bg/services-grid-1.jpg">
+                          </div>
+                          <div class="services-grid-content">
+                            <h3>Utilaje reciclare</h3>
+                            <p>Prescontainerele MBT servesc la depozitarea, compactarea si transportul deseurilor.</p>
+                            <p>Cu un design estetic si ergonomic conforme cu toate normele de siguranta si igiena echipamentele noastre, incepand de la prescontainere, prese de balotat deseuri, tocator plastic si pana la statii de transfer deseuri, se remarca prin eficienta sporita, garanteaza prin calitate si contribuie la dezvoltarea afacerii tale</p>
+                          </div>
+                        </div>
+                        <!-- /services grid -->
+                        <!-- services grid -->
+                        <div class="services-grid">
+                          <div class="services-grid-img" data-img="assets/img/bg/services-grid-2.jpg">
+                          </div>
+                          <div class="services-grid-content">
+                            <h3>Mentenanta</h3>
+                            <p>Pozitionarea in centrul tarii ne ajuta sa fim prompti la orice cerere de service din partea dumneavoastra.</p>
+                            <p>Suntem disponibili pentru a va rezolva problemele echipamentelor oricand si oriunde in tara, 24 din 24, 7 zile pe saptamana. Va asiguram oameni priceputi in mecanica, electrica si hidraulica care va vor pune utilajul in functiune in cel mai scurt timp, munca serioasa si de calitate precum si piese de schimb cu garantie.</p>
+                          </div>
+                        </div>
+                        <!-- /services grid -->
+                        <!-- services grid -->
+                        <div class="services-grid">
+                          <div class="services-grid-img" data-img="assets/img/bg/services-grid-3.jpg">
+                          </div>
+                          <div class="services-grid-content">
+                            <h3>Inchirieri</h3>
+                            <p>MBT va pune la dispozitie o gama larga de prescontainere si prese de balotat deseuri, disponibile pentru inchiriat.</p>
+                            <p>O gama larga de utilaje pentru reciclare: prese profesionale, industriale sau automate de balotat deseuri, prescontainere Abroll sau Absetz, prese stationare, tocatoare deseuri, granulatoare plastic si alte echipamente specifice, adaptabile fiecarei cereri. Pentru o functionare in parametrii normali, va oferim o gama larga de consumabile necesare.</p>
+                          </div>
+                        </div>
+                        <!-- /services grid -->
+                      </div>
+                      <!-- /services slider -->
+                    </div>
+                  </div>
+                  <!-- section footer -->
+                  <div class="row section-footer">
+                    <div class="col-xs-12">
+                      <a href="#" title="" class="animation btn btn-lg btn-theme" data-section="#contact">Contacteaza-ne</a>
+                    </div>
+                  </div>
+                  <!-- /section footer -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /services -->
+
+      <!-- contact -->
+      <section id="contact">
+        <div class="section-wrap">
+          <div class="scroll-block">
+            <div class="tb">
+              <div class="tb-cell">
+                <div class="container">
+                  <!-- section heading -->
+                  <div class="row section-heading">
+                    <div class="col-xs-12">
+                      <h2 class="animation section-title"><span class="color">Spune</span>-ne ceva</h2> <!-- section title -->
+                    </div>
+                  </div>
+                  <!-- /section heading -->
+                  <!-- section body -->
+                  <div class="row section-body">
+                    <div class="col-md-6 contact-col">
+                      <h3 class="animation">Asa ne gasesti</h3>
+                      <p class="animation address">
+                        <!-- address -->
+                        Ecaterina Teodoroiu 21,<br>
+                        Sighisoara,<br>
+                        545400
+                        <!-- /address -->
+                      </p>
+                      <p class="animation address">
+                        TEL: +(40) 746 306 044<br> <!-- phone -->
+                        <!-- FAX: (00) 987-6543210<br> <!-- fax -->
+                        EMAIL: contact@recondis.com <!-- email -->
+                      </p>
+                      <!-- social 
+                      <ul class="animation social-ul">
+                        <li><a href="#" title="" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#" title="" target="_blank"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#" title="" target="_blank"><i class="ion-social-instagram-outline"></i></a></li>
+                        <li><a href="#" title="" target="_blank"><i class="ion-social-foursquare-outline"></i></a></li>
+                        <li><a href="#" title="" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                      </ul>
+                      <!-- /social -->
+                    </div>
+                    <div class="col-md-6 contact-col">
+                      <h3 class="animation">Trimite un mesaj</h3>
+                      <!-- contact form -->
+                      <form id="contact-form" class="animation">
+                        <div class="form-group">
+                          <input type="text" name="contactFormName" id="contactFormName" class="form-control input-lg" placeholder="Nume" required>
+                        </div>
+                        <div class="form-group">
+                          <input type="text" name="contactFormEmail" id="contactFormEmail" class="form-control input-lg" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                          <textarea name="contactFormMessage" rows="3" id="contactFormMessage" class="form-control" placeholder="Mesaj" required></textarea>
+                        </div>
+                        <button type="submit" name="contactFormSubmit" id="contactFormSubmit" class="btn btn-lg btn-block btn-theme">Trimite</button>
+                        <div class="contact-notice"></div>
+                      </form>
+                      <!-- /contact form -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+
+    </main>
+    <!-- /site main -->
+
+    <!-- site footer -->
+    <footer id="site-footer">
+      <div id="countdown-toggle">
+        <input type='checkbox' class='bfc-toggle bfc-toggle-flat' id='footer-toggle'>
+        <label class='bfc-toggle-btn' for='footer-toggle'></label>
+      </div>
+    </footer>
+    <!-- /site-footer -->
+
+  </div>
+  <!-- /site wrap -->
+
+  <!-- script -->
+  <script src='assets/js/vendor/jquery-1.11.3.min.js'></script>
+  <script src='assets/js/vendor/bootstrap.min.js'></script>
+  <script src='assets/js/vendor/vendor.js'></script>
+  <script src='assets/js/variable.js'></script>
+  <script src='assets/js/main.js'></script>
+  <!-- /script -->
+
+</body>
+</html>
