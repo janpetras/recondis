@@ -8,7 +8,7 @@
 
         <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
@@ -16,12 +16,12 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600italic,700italic,600,800,300,700,800italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
         <!-- Google Fonts -->
-
+        
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/revslider/revslider-index.css">
+        <link rel="stylesheet" href="css/revslider/revslider-index6.css">
         <link rel="stylesheet" id="color-scheme" href="css/colors/green.css">
         
         <!-- Favicon and Apple Icons -->
@@ -41,9 +41,8 @@
     </head>
     <body>
     <div class="boss-loader-overlay"></div><!-- End .boss-loader-overlay -->
-
     <div id="wrapper">
-        <header id="header" role="banner">
+        <header id="header" role="banner" class="sticky-menu">
             <div class="collapse navbar-white special-for-mobile" id="header-search-form">
                 <div class="container">
                     <form class="navbar-form animated fadeInDown" >
@@ -52,148 +51,69 @@
                     </form>
                 </div><!-- End .container -->
             </div><!-- End #header-search-form -->
-            <nav class="navbar navbar-white navbar-transparent animated-dropdown ttb-dropdown" role="navigation">
-                
-                <div class="navbar-top clearfix">
-                    <div class="container">
-                        <div class="pull-left">
-                            <ul class="navbar-top-nav clearfix hidden-sm hidden-xs">
-                                <li><a href="#"><i class="fa fa-user"></i>My Account</a></li>
-                                <li><a href="login.html"><i class="fa fa-external-link"></i>Login</a></li>
-                                <li><a href="register.html"><i class="fa fa-terminal"></i>Register</a></li>
-                                <li><a href="#"><i class="fa fa-gift"></i>My Wishlist</a></li>
-                            </ul>
-                            <div class="dropdown account-dropdown visible-sm visible-xs">
-                                <a class="dropdown-toggle" href="#" id="account-dropdown" data-toggle="dropdown" aria-expanded="true">
-                                <i class="fa fa-user"></i>My Account
-                                <span class="angle"></span>
-                                </a>
-                                <ul class="dropdown-menu" role="menu" aria-labelledby="account-dropdown">
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="shop-dashboard.html"><i class="fa fa-user"></i>My Account</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="login.html"><i class="fa fa-external-link"></i>Login</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="register.html"><i class="fa fa-terminal"></i>Register</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-gift"></i>My Wishlist</a></li>
-                                </ul>
-                            </div><!-- End .account-dropdown -->
-                        </div><!-- End .pull-left -->
+            <nav class="navbar navbar-white navbar-transparent animated-dropdown btt-dropdown" role="navigation">
 
-                        <div class="pull-right">
-                           <div class="social-icons pull-right hidden-xs">
-                                <a href="#" class="social-icon icon-facebook" title="Facebook">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-twitter" title="Twitter">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-google-plus" title="Google Plus">
-                                    <i class="fa fa-google-plus"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-dribbble" title="Dribbble">
-                                    <i class="fa fa-dribbble"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-reddit" title="Reddit">
-                                    <i class="fa fa-reddit"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-skype" title="Skype">
-                                    <i class="fa fa-skype"></i>
-                                </a>
-                            </div><!-- End .social-icons -->
-                            
-                            <div class="dropdowns-container pull-right clearfix">
-                                <div class="dropdown currency-dropdown pull-right">
-                                    <a class="dropdown-toggle" href="#" id="currency-dropdown" data-toggle="dropdown" aria-expanded="true">
-                                    Currency
-                                    <span class="angle"></span>
-                                    </a>
-                                    <ul class="dropdown-menu" role="menu" aria-labelledby="currency-dropdown">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Us Dollar</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Euro</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Turkish TL</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pound</a></li>
-                                    </ul>
-                                </div><!-- End .currency-dropdown -->
+                <div class="container">
+                    <div class="navbar-header">
 
-                                <div class="dropdown language-dropdown pull-right">
-                                    <a class="dropdown-toggle" href="#" id="language-dropdown" data-toggle="dropdown" aria-expanded="true">
-                                    Languages
-                                    <span class="angle"></span>
-                                    </a>
-                                    <ul class="dropdown-menu" role="menu" aria-labelledby="language-dropdown">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Spanish</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Turkish</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">German</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Italian</a></li>
-                                    </ul>
-                                </div><!-- End .curreny-dropdown -->
-                            </div><!-- End. dropdowns-container -->
+                        <button type="button" class="navbar-toggle btn-circle pull-right collapsed" data-toggle="collapse" data-target="#main-navbar-container">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                        </button>
 
-                        </div><!-- End .pull-right -->
-                    </div><!-- End .container -->
-                </div><!-- End .navbar-top -->
-                
-                <div class="navbar-inner sticky-menu">
-                    <div class="container">
-                        <div class="navbar-header">
+                        <a class="navbar-brand text-uppercase" href="index.html" title="Boss - Multipurpose Premium Html5 Template">Boss</a>
 
-                            <button type="button" class="navbar-toggle btn-circle pull-right collapsed" data-toggle="collapse" data-target="#main-navbar-container">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                            </button>
+                        <button type="button" class="navbar-btn btn-icon btn-circle pull-right last visible-sm visible-xs" data-toggle="collapse" data-target="#header-search-form"><i class="fa fa-search"></i></button>
 
-                            <a class="navbar-brand text-uppercase" href="index.html" title="Boss - Multipurpose Premium Html5 Template">Boss</a>
+                        <div class="dropdown cart-dropdown visible-sm visible-xs pull-right">
+                            <button type="button" class="navbar-btn btn-icon btn-circle dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i></button>
+                            <div class="dropdown-menu cart-dropdown-menu" role="menu">
+                                <p class="cart-dropdown-desc"><i class="fa fa-cart-plus"></i>You have 2 product(s) in your cart:</p>
+                                <hr>
+                                <div class="product clearfix">
+                                    <a href="#" class="remove-btn" title="Remove"><i class="fa fa-close"></i></a>
+                                    <figure>
+                                       <a href="product.html" title="Product Name"><img class="img-responsive" src="images/products/thumbs/product1.jpg" alt="Product image"></a>
+                                    </figure>
+                                    <div class="product-meta">
+                                        <h4 class="product-name"><a href="product.html">Seamsun 3d Smart Tv</a></h4>
+                                        <div class="product-quantity">x 2 piece(s)</div><!-- End .product-quantity -->
+                                        <div class="product-price-container">
+                                            <span class="product-price">$80.50</span>
+                                            <span class="product-old-price">$120.50</span>
+                                        </div><!-- End .product-price-container -->
+                                    </div><!-- End .product-meta -->
+                                </div><!-- End .product -->
+                                <div class="product clearfix">
+                                    <a href="#" class="remove-btn" title="Remove"><i class="fa fa-close"></i></a>
+                                    <figure>
+                                        <a href="product.html" title="Product Name"><img class="img-responsive" src="images/products/thumbs/product1.jpg" alt="Product image"></a>
+                                    </figure>
+                                    <div class="product-meta">
+                                        <h4 class="product-name"><a href="product.html">Banana Smart Watch</a></h4>
+                                        <div class="product-quantity">x 1 piece(s)</div><!-- End .product-quantity -->
+                                        <div class="product-price-container">
+                                            <span class="product-price">$120.99</span>
+                                        </div><!-- End .product-price-container -->
+                                    </div><!-- End .product-meta -->
+                                </div><!-- End .product -->
+                                <hr>
+                                <div class="cart-action">
+                                    <div class="pull-left cart-action-total">
+                                        <span>Total:</span> $281.99
+                                    </div><!-- End .pull-left -->
+                                    <div class="pull-right">
+                                        <a href="#" class="btn btn-custom ">Go to Cart</a>
+                                    </div>
+                                </div><!-- End .cart-action -->
+                            </div><!-- End .dropdown-menu -->
+                        </div><!-- End .cart-dropdown -->
 
-                            <button type="button" class="navbar-btn btn-icon btn-circle pull-right last visible-sm visible-xs" data-toggle="collapse" data-target="#header-search-form"><i class="fa fa-search"></i></button>
+                        
+                    </div><!-- End .navbar-header -->
 
-                            <div class="dropdown cart-dropdown visible-sm visible-xs pull-right">
-                                <button type="button" class="navbar-btn btn-icon btn-circle dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i></button>
-                                <div class="dropdown-menu cart-dropdown-menu" role="menu">
-                                    <p class="cart-dropdown-desc"><i class="fa fa-cart-plus"></i>You have 2 product(s) in your cart:</p>
-                                    <hr>
-                                    <div class="product clearfix">
-                                        <a href="#" class="remove-btn" title="Remove"><i class="fa fa-close"></i></a>
-                                        <figure>
-                                           <a href="product.html" title="Product Name"><img class="img-responsive" src="images/products/thumbs/product1.jpg" alt="Product image"></a>
-                                        </figure>
-                                        <div class="product-meta">
-                                            <h4 class="product-name"><a href="product.html">Seamsun 3d Smart Tv</a></h4>
-                                            <div class="product-quantity">x 2 piece(s)</div><!-- End .product-quantity -->
-                                            <div class="product-price-container">
-                                                <span class="product-price">$80.50</span>
-                                                <span class="product-old-price">$120.50</span>
-                                            </div><!-- End .product-price-container -->
-                                        </div><!-- End .product-meta -->
-                                    </div><!-- End .product -->
-                                    <div class="product clearfix">
-                                        <a href="#" class="remove-btn" title="Remove"><i class="fa fa-close"></i></a>
-                                        <figure>
-                                            <a href="product.html" title="Product Name"><img class="img-responsive" src="images/products/thumbs/product1.jpg" alt="Product image"></a>
-                                        </figure>
-                                        <div class="product-meta">
-                                            <h4 class="product-name"><a href="product.html">Banana Smart Watch</a></h4>
-                                            <div class="product-quantity">x 1 piece(s)</div><!-- End .product-quantity -->
-                                            <div class="product-price-container">
-                                                <span class="product-price">$120.99</span>
-                                            </div><!-- End .product-price-container -->
-                                        </div><!-- End .product-meta -->
-                                    </div><!-- End .product -->
-                                    <hr>
-                                    <div class="cart-action">
-                                        <div class="pull-left cart-action-total">
-                                            <span>Total:</span> $281.99
-                                        </div><!-- End .pull-left -->
-                                        <div class="pull-right">
-                                            <a href="#" class="btn btn-custom ">Go to Cart</a>
-                                        </div>
-                                    </div><!-- End .cart-action -->
-                                </div><!-- End .dropdown-menu -->
-                            </div><!-- End .cart-dropdown -->
-
-                            
-                        </div><!-- End .navbar-header -->
-
-                        <div class="collapse navbar-collapse" id="main-navbar-container">
-                            <ul class="nav navbar-nav">
+                    <div class="collapse navbar-collapse" id="main-navbar-container">
+                        <ul class="nav navbar-nav">
                                 <li class="dropdown active megamenu-container">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home<span class="angle"></span></a>
                                     <div class="dropdown-menu megamenu" role="menu">
@@ -588,70 +508,69 @@
                                 </li>
                                 <li class="visible-lg"><a href="//wrapbootstrap.com/user/eony">Buy Now!</a></li>
                             </ul>
-                            
-                            <button type="button" class="navbar-btn btn-icon btn-circle navbar-right last  hidden-sm hidden-xs" data-toggle="collapse" data-target="#header-search-form"><i class="fa fa-search"></i></button>
-                            
-                            <div class="dropdown cart-dropdown navbar-right hidden-sm hidden-xs">
-                                <button type="button" class="navbar-btn btn-icon btn-circle dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i></button>
-                                <div class="dropdown-menu cart-dropdown-menu" role="menu">
-                                    <p class="cart-dropdown-desc"><i class="fa fa-cart-plus"></i>You have 2 product(s) in your cart:</p>
-                                    <hr>
-                                    <div class="product clearfix">
-                                        <a href="#" class="remove-btn" title="Remove"><i class="fa fa-close"></i></a>
-                                        <figure>
-                                           <a href="product.html" title="Product Name"><img class="img-responsive" src="images/products/thumbs/product1.jpg" alt="Product image"></a>
-                                        </figure>
-                                        <div class="product-meta">
-                                            <h4 class="product-name"><a href="product.html">Seamsun 3d Smart Tv</a></h4>
-                                            <div class="product-quantity">x 2 piece(s)</div><!-- End .product-quantity -->
-                                            <div class="product-price-container">
-                                                <span class="product-price">$80.50</span>
-                                                <span class="product-old-price">$120.50</span>
-                                            </div><!-- End .product-price-container -->
-                                        </div><!-- End .product-meta -->
-                                    </div><!-- End .product -->
-                                    <div class="product clearfix">
-                                        <a href="#" class="remove-btn" title="Remove"><i class="fa fa-close"></i></a>
-                                        <figure>
-                                            <a href="product.html" title="Product Name"><img class="img-responsive" src="images/products/thumbs/product1.jpg" alt="Product image"></a>
-                                        </figure>
-                                        <div class="product-meta">
-                                            <h4 class="product-name"><a href="product.html">Banana Smart Watch</a></h4>
-                                            <div class="product-quantity">x 1 piece(s)</div><!-- End .product-quantity -->
-                                            <div class="product-price-container">
-                                                <span class="product-price">$120.99</span>
-                                            </div><!-- End .product-price-container -->
-                                        </div><!-- End .product-meta -->
-                                    </div><!-- End .product -->
-                                    <hr>
-                                    <div class="cart-action">
-                                        <div class="pull-left cart-action-total">
-                                            <span>Total:</span> $281.99
-                                        </div><!-- End .pull-left -->
-                                        <div class="pull-right">
-                                            <a href="#" class="btn btn-custom ">Go to Cart</a>
-                                        </div>
-                                    </div><!-- End .cart-action -->
-                                </div><!-- End .dropdown-menu -->
-                            </div><!-- End .cart-dropdown -->
-                        </div><!-- /.navbar-collapse -->
-                    </div><!-- /.container -->
-                </div><!-- End .navbar-inner -->
+                        
+                        <button type="button" class="navbar-btn btn-icon btn-circle navbar-right last  hidden-sm hidden-xs" data-toggle="collapse" data-target="#header-search-form"><i class="fa fa-search"></i></button>
+                        
+                        <div class="dropdown cart-dropdown navbar-right hidden-sm hidden-xs">
+                            <button type="button" class="navbar-btn btn-icon btn-circle dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i></button>
+                            <div class="dropdown-menu cart-dropdown-menu" role="menu">
+                                <p class="cart-dropdown-desc"><i class="fa fa-cart-plus"></i>You have 2 product(s) in your cart:</p>
+                                <hr>
+                                <div class="product clearfix">
+                                    <a href="#" class="remove-btn" title="Remove"><i class="fa fa-close"></i></a>
+                                    <figure>
+                                       <a href="product.html" title="Product Name"><img class="img-responsive" src="images/products/thumbs/product1.jpg" alt="Product image"></a>
+                                    </figure>
+                                    <div class="product-meta">
+                                        <h4 class="product-name"><a href="product.html">Seamsun 3d Smart Tv</a></h4>
+                                        <div class="product-quantity">x 2 piece(s)</div><!-- End .product-quantity -->
+                                        <div class="product-price-container">
+                                            <span class="product-price">$80.50</span>
+                                            <span class="product-old-price">$120.50</span>
+                                        </div><!-- End .product-price-container -->
+                                    </div><!-- End .product-meta -->
+                                </div><!-- End .product -->
+                                <div class="product clearfix">
+                                    <a href="#" class="remove-btn" title="Remove"><i class="fa fa-close"></i></a>
+                                    <figure>
+                                        <a href="product.html" title="Product Name"><img class="img-responsive" src="images/products/thumbs/product1.jpg" alt="Product image"></a>
+                                    </figure>
+                                    <div class="product-meta">
+                                        <h4 class="product-name"><a href="product.html">Banana Smart Watch</a></h4>
+                                        <div class="product-quantity">x 1 piece(s)</div><!-- End .product-quantity -->
+                                        <div class="product-price-container">
+                                            <span class="product-price">$120.99</span>
+                                        </div><!-- End .product-price-container -->
+                                    </div><!-- End .product-meta -->
+                                </div><!-- End .product -->
+                                <hr>
+                                <div class="cart-action">
+                                    <div class="pull-left cart-action-total">
+                                        <span>Total:</span> $281.99
+                                    </div><!-- End .pull-left -->
+                                    <div class="pull-right">
+                                        <a href="#" class="btn btn-custom ">Go to Cart</a>
+                                    </div>
+                                </div><!-- End .cart-action -->
+                            </div><!-- End .dropdown-menu -->
+                        </div><!-- End .cart-dropdown -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
             </nav>
         </header><!-- End #header -->
     
-        <div id="content" role="main" class="no-padding">
+        <div id="content" role="main">
         
             <div id="revslider-container">
                 <div id="revslider">
                     <ul>
-                        <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="Boss of All Templates" data-thumb="images/homesliders/index/slide1.jpg">
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="Boss of All Templates" data-thumb="images/homesliders/index6/slide1.jpg">
                             <!-- background image -->
-                            <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homesliders/index/slide1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homesliders/index6/slide1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                             
                             <div class="tp-caption rev-subtitle lfb ltt"
                                 data-x="center"
-                                data-y="155"
+                                data-y="160"
                                 data-speed="1000"
                                 data-start="900"
                                 data-easing="Power3.easeInOut"
@@ -672,7 +591,7 @@
 
                             <div class="tp-caption rev-text lfb ltt"
                                 data-x="center"
-                                data-y="290"
+                                data-y="285"
                                 data-speed ="1000"
                                 data-start="1200"
                                 data-easing="Power3.easeInOut"
@@ -682,7 +601,7 @@
 
                             <div class="tp-caption rev-btn lfb ltt"
                                 data-x="center"
-                                data-y="360"
+                                data-y="355"
                                 data-speed="1000"
                                 data-start="1400"
                                 data-easing="Power3.easeInOut"
@@ -692,13 +611,13 @@
                                     <a href="#" class="btn btn-white radius-lger min-width"><strong>Purchase Now!</strong></a>
                             </div>
                         </li>
-                        <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="Multipurpose Template" data-thumb="images/homesliders/index/slide2.jpg">
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="Multipurpose Template" data-thumb="images/homesliders/index6/slide2.jpg">
                             <!-- background image -->
-                            <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homesliders/index/slide2.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homesliders/index6/slide2.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
 
-                            <div class="tp-caption rev-subtitle lfb ltt"
+                            <div class="tp-caption rev-subtitle lfl ltl"
                                 data-x="center"
-                                data-y="155"
+                                data-y="160"
                                 data-speed="1000"
                                 data-start="900"
                                 data-easing="Power3.easeInOut"
@@ -706,7 +625,7 @@
                                 style="z-index: 10">Multipurpose Template
                             </div>
 
-                            <div class="tp-caption rev-title lfb ltt"
+                            <div class="tp-caption rev-title lfr ltr"
                                 data-x="center"
                                 data-y="210"
                                 data-speed="1000"
@@ -719,7 +638,7 @@
 
                             <div class="tp-caption rev-text lfb ltt"
                                 data-x="center"
-                                data-y="290"
+                                data-y="285"
                                 data-speed ="1000"
                                 data-start="1200"
                                 data-easing="Power3.easeInOut"
@@ -729,7 +648,7 @@
 
                             <div class="tp-caption rev-btn lfb ltt"
                                 data-x="center"
-                                data-y="360"
+                                data-y="355"
                                 data-speed="1000"
                                 data-start="1400"
                                 data-easing="Power3.easeInOut"
@@ -741,416 +660,269 @@
                         </li>
                     </ul>
                 </div><!-- End #revslider -->
-                <a href="#id-to-scroll" class="scroll-btn light" data-offset="-55" data-0="opacity:1" data-top-bottom="opacity:0;" title="Go Down"><span></span></a>
+                <a href="#service-group-id" class="scroll-btn light" data-offset="-96" data-0="opacity:1" data-top-bottom="opacity:0;" title="Go Down"><span></span></a>
             </div><!-- End #revslider-container -->
 
-            <div class="container-fluid no-padding" id="id-to-scroll">
-                <div class="row no-margin">
-                    <div class="col-sm-4 bg-custom">
-                        <div class="colored-box">
-                            <h3 class="text-white mb20">Multipurpose Template</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore rerum ratione quisquam, nisi nulla hic omnis eveniet expedita, debitis, porro deserunt est illo eaque, ipsum qui. Explicabo perspiciatis, labore voluptatibus.</p>
-                            <a href="#" class="btn btn-white v2 btn-border no-radius">More Features</a>
-                        </div><!-- End .colored-box -->
+            <div class="container service-group pb10-xs" id="service-group-id">
+                <header class="title-block text-center mb50">
+                    <h2 class="title-border custom text-uppercase text-center mb20"><span>WHAT WE OFFER?</span></h2>
+                    <p>Please check out the small guide below to find what you are looking for. <br> Then <a href="#contact-form-id" class="scrollto" data-offset="-86">click here</a> to get in touch with us!</p>
+                </header>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="service vertical service-hover text-center">
+
+                            <span class="service-icon first-color" data-hover-anim="shake"><i class="icon-umbrella"></i></span>
+                            <div class="service-content">
+                                <h3 class="service-title text-uppercase">Hundreds of Features</h3>
+                            </div><!-- End .service-content -->
+                            
+                        </div><!-- End .service -->
                     </div><!-- End .col-sm-4 -->
-                    <div class="col-sm-4 bg-custom2">
-                        <div class="colored-box">
-                            <h3 class="text-white mb20">Bootstrap Based</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore rerum ratione quisquam, nisi nulla hic omnis eveniet expedita, debitis, porro deserunt est illo eaque, ipsum qui. Explicabo perspiciatis, labore voluptatibus.</p>
-                            <a href="#" class="btn btn-white btn-border no-radius">More Features</a>
-                        </div><!-- End .colored-box -->
+
+                    <div class="col-sm-4">
+                        <div class="service vertical service-hover text-center">
+
+                            <span class="service-icon first-color" data-hover-anim="shake"><i class="icon-anchor"></i></span>
+                            <div class="service-content">
+                                <h3 class="service-title text-uppercase">Bootstrap Based</h3>
+
+                            </div><!-- End .service-content -->
+                            
+                        </div><!-- End .service -->
                     </div><!-- End .col-sm-4 -->
-                    <div class="col-sm-4 bg-custom">
-                        <div class="colored-box">
-                            <h3 class="text-white mb20">200 + Html Pages</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore rerum ratione quisquam, nisi nulla hic omnis eveniet expedita, debitis, porro deserunt est illo eaque, ipsum qui. Explicabo perspiciatis, labore voluptatibus.</p>
-                            <a href="#" class="btn btn-white v2 btn-border no-radius">More Features</a>
-                        </div><!-- End .colored-box -->
+
+                    <div class="col-sm-4">
+                        <div class="service vertical service-hover text-center">
+
+                            <span class="service-icon first-color" data-hover-anim="shake"><i class="icon-doc"></i></span>
+                            <div class="service-content">
+                                <h3 class="service-title text-uppercase">200+ Html Pages</h3>
+
+                            </div><!-- End .service-content -->
+                            
+                        </div><!-- End .service -->
                     </div><!-- End .col-sm-4 -->
                 </div><!-- End .row -->
-            </div><!-- End .container-fluid -->
 
-            <div class="bg-lightgray pt65 pb15">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="service vertical service-hover text-center">
 
-                                <span class="service-icon"><i class="icon-umbrella"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">Hundreds of Features</h3>
+                            <span class="service-icon first-color" data-hover-anim="shake"><i class="icon-energy"></i></span>
+                            <div class="service-content">
+                                <h3 class="service-title text-uppercase">Detailed Elements Pages</h3>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam soluta optio in.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
+                            </div><!-- End .service-content -->
+                            
+                        </div><!-- End .service -->
+                    </div><!-- End .col-sm-4 -->
 
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp" data-wow-delay="0.15s">
+                    <div class="col-sm-4">
+                        <div class="service vertical service-hover text-center">
 
-                                <span class="service-icon"><i class="icon-anchor"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">Bootstrap Based</h3>
+                            <span class="service-icon first-color" data-hover-anim="shake"><i class="icon-home"></i></span>
+                            <div class="service-content">
+                                <h3 class="service-title text-uppercase">35+ Homepages</h3>
+ 
+                            </div><!-- End .service-content -->
+                            
+                        </div><!-- End .service -->
+                    </div><!-- End .col-sm-4 -->
 
-                                    <p>Harum repellat quaerat accusantium fuga aliquam dolorum, tempora recusandae.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
+                    <div class="col-sm-4">
+                        <div class="service vertical service-hover text-center">
 
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp" data-wow-delay="0.3s">
+                            <span class="service-icon first-color" data-hover-anim="shake"><i class="icon-puzzle"></i></span>
+                            <div class="service-content">
+                                <h3 class="service-title text-uppercase">Multipurpose Template</h3>
 
-                                <span class="service-icon"><i class="icon-doc"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">200+ Html Pages</h3>
-
-                                    <p>Reiciendis, ad a fugit quas! Ratione praesentium alias pariatur repellat quos sie.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
-                    </div><!-- End .row -->
-
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp" data-wow-delay="0.15s">
-
-                                <span class="service-icon"><i class="icon-energy"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">Detailed Elements Pages</h3>
-                                    
-                                    <p>Reiciendis, ad a fugit quas! Ratione praesentium alias pariatur repellat voluptates.</p>
-
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
-
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp" data-wow-delay="0.3s">
-
-                                <span class="service-icon"><i class="icon-home"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">35+ Homepages</h3>
-     
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam soluta optio natus.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
-
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp" data-wow-delay="0.45s">
-
-                                <span class="service-icon"><i class="icon-puzzle"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">Multipurpose Template</h3>
-
-                                    <p>Harum repellat quaerat accusantium fuga aliquam dolorum, tempora recusandae minus.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
-                    </div><!-- End .row -->
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp" data-wow-delay="0.3s">
-
-                                <span class="service-icon"><i class="icon-bubble"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">Happy customers</h3>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam soluta in.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
-
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp" data-wow-delay="0.45s">
-
-                                <span class="service-icon"><i class="icon-heart"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">Work with love</h3>
-
-                                    <p>Harum repellat quaerat accusantium fuga aliquam dolorum, tempora recusandae.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
-
-                        <div class="col-sm-4">
-                            <div class="service wow fadeInUp" data-wow-delay="0.6s">
-
-                                <span class="service-icon"><i class="icon-star"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title text-uppercase">Uniqe Design</h3>
-
-                                    <p>Reiciendis, ad a fugit quas! Ratione praesentium alias pariatur repellat quos sie.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-sm-4 -->
-                    </div><!-- End .row -->
-                </div><!-- End .container -->
-            </div><!-- End .bg-lightgray -->
-            
-            <div class="bg-lightergray no-overflow pt70">
-                <div class="container ">
-                    <h2 class="title-underblock custom text-uppercase text-center mb50">Awesome Homepages</h2>
-                    <img src="images/homepages.png" alt="Homepages" class="img-responsive center-block wow fadeInUp">
-                </div><!-- End .container -->
-            </div><!-- End .bg-lightergray -->
-            <hr class="gray mt0 mb65">
-
-            <div class="container">
-                <header class="title-block text-center mb60">
-                    <h2 class="title-underblock custom text-uppercase text-center mb20"><span>See Portfolio</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque adip silis isci <br> alias cumque nemo cum iure ullam, quaerat, asperiores quasi.</p>
-                </header>
-
-                <ul id="portfolio-filter" class="text-center">
-                    <li class="active"><a href="#" data-filter="*">All</a></li>
-                    <li><a href="#" data-filter=".design">Design</a></li>
-                    <li><a href="#" data-filter=".fashion">Fashion</a></li>
-                    <li><a href="#" data-filter=".illustration">Illustration</a></li>
-                    <li><a href="#" data-filter=".video">Video</a></li>
-                    <li><a href="#" data-filter=".photography">Photography</a></li>
-                </ul>
-                
+                            </div><!-- End .service-content -->
+                            
+                        </div><!-- End .service -->
+                    </div><!-- End .col-sm-4 -->
+                </div><!-- End .row -->
             </div><!-- End .container -->
 
-            <div id="portfolio-item-container" class="max-col-4 no-margin popup-gallery" data-layoutmode="fitRows">
-                <div class="portfolio-item portfolio-meta-slideup push design">
-                    <figure>
-                        <a href="images/portfolio/aboutme/item9.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item9.jpg" alt="portfolio item name" class="img-responsive"></a>
-                    </figure>
-                    <div class="portfolio-meta dark">
-                        <h2 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h2>
-                        <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
-                        <a class="portfolio-favourite" href="#" title="Favourite">
-                            <i class="fa fa-heart-o"></i>
-                            <span>4</span>
-                        </a>
-                    </div><!-- End .portfolio-meta -->                            
-                </div><!-- End .portfolio-item -->
-
-                <div class="portfolio-item portfolio-meta-slideup push fashion">
-                    <figure>
-                        <a href="images/portfolio/aboutme/item2.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item2.jpg" alt="portfolio item name" class="img-responsive"></a>
-                    </figure>
-                    <div class="portfolio-meta dark">
-                        <h2 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h2>
-                        <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
-                        <a class="portfolio-favourite" href="#" title="Favourite">
-                            <i class="fa fa-heart-o"></i>
-                            <span>8</span>
-                        </a>
-                    </div><!-- End .portfolio-meta -->                            
-                </div><!-- End .portfolio-item -->
-
-                <div class="portfolio-item portfolio-meta-slideup push design illustration">
-                    <figure>
-                        <a href="images/portfolio/aboutme/item3.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item3.jpg" alt="portfolio item name" class="img-responsive"></a>
-                    </figure>
-                    <div class="portfolio-meta dark">
-                        <h2 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h2>
-                        <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
-                        <a class="portfolio-favourite" href="#" title="Favourite">
-                            <i class="fa fa-heart-o"></i>
-                            <span>8</span>
-                        </a>
-                    </div><!-- End .portfolio-meta -->                            
-                </div><!-- End .portfolio-item -->
-
-                <div class="portfolio-item portfolio-meta-slideup push illustration">
-                    <figure>
-                        <a href="images/portfolio/aboutme/item4.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item4.jpg" alt="portfolio item name" class="img-responsive"></a>
-                    </figure>
-                    <div class="portfolio-meta dark">
-                        <h2 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h2>
-                        <div class="portfolio-tags"><a href="#">Life</a>, <a href="#">Love</a></div>
-                        <a class="portfolio-favourite" href="#" title="Favourite">
-                            <i class="fa fa-heart-o"></i>
-                            <span>2</span>
-                        </a>
-                    </div><!-- End .portfolio-meta -->                            
-                </div><!-- End .portfolio-item -->
-
-                <div class="portfolio-item portfolio-meta-slideup push fashion video">
-                    <figure>
-                        <a href="images/portfolio/aboutme/item5.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item5.jpg" alt="portfolio item name" class="img-responsive"></a>
-                    </figure>
-                    <div class="portfolio-meta dark">
-                        <h2 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h2>
-                        <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
-                        <a class="portfolio-favourite" href="#" title="Favourite">
-                            <i class="fa fa-heart-o"></i>
-                            <span>11</span>
-                        </a>
-                    </div><!-- End .portfolio-meta -->                            
-                </div><!-- End .portfolio-item -->
-
-                <div class="portfolio-item portfolio-meta-slideup push photography">
-                    <figure>
-                        <a href="images/portfolio/aboutme/item6.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item6.jpg" alt="portfolio item name" class="img-responsive"></a>
-                    </figure>
-                    <div class="portfolio-meta dark">
-                        <h2 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h2>
-                        <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
-                        <a class="portfolio-favourite" href="#" title="Favourite">
-                            <i class="fa fa-heart-o"></i>
-                            <span>8</span>
-                        </a>
-                    </div><!-- End .portfolio-meta -->                            
-                </div><!-- End .portfolio-item -->
-
-                <div class="portfolio-item portfolio-meta-slideup push photography">
-                    <figure>
-                        <a href="images/portfolio/aboutme/item7.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item7.jpg" alt="portfolio item name" class="img-responsive"></a>
-                    </figure>
-                    <div class="portfolio-meta dark">
-                        <h2 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h2>
-                        <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
-                        <a class="portfolio-favourite" href="#" title="Favourite">
-                            <i class="fa fa-heart-o"></i>
-                            <span>2</span>
-                        </a>
-                    </div><!-- End .portfolio-meta -->                            
-                </div><!-- End .portfolio-item -->
-
-                <div class="portfolio-item portfolio-meta-slideup push design">
-                    <figure>
-                        <a href="images/portfolio/aboutme/item8.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item8.jpg" alt="portfolio item name" class="img-responsive"></a>
-                    </figure>
-                    <div class="portfolio-meta dark">
-                        <h2 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h2>
-                        <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
-                        <a class="portfolio-favourite" href="#" title="Favourite">
-                            <i class="fa fa-heart-o"></i>
-                            <span>8</span>
-                        </a>
-                    </div><!-- End .portfolio-meta -->                            
-                </div><!-- End .portfolio-item -->
-
-            </div><!-- End #portfolio-item-container -->
-            <div class="callout custom no-border">
-                <div class="mb5"></div><!-- space -->
+            <div class="bg-lightergray pt70 pt60-xs">
                 <div class="container">
-                    <div class="callout-wrapper">
-                        <div class="callout-left">
-                            <h2 class="callout-title">Don't forget this is the only chance you will get. Purchase now!</h2>
-                            <p class="callout-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eos iste assumenda dolor veritatis ducimus nostrum?</p>
-                        </div><!-- End .callout-left -->
-                        <div class="callout-right">
-                            <a href="#" class="btn btn-white v2 btn-border radius-lger min-width">Purchase Now!</a>
-                        </div><!-- End .callout-right -->
-                    </div><!-- End .callout-wrapper -->
+                    <img src="images/browser2.png" alt="Browser" class="img-responsive wow fadeInUp center-block">
                 </div><!-- End .container -->
-                <div class="mb10"></div><!-- space -->
-            </div><!-- End .callout -->
+            </div><!-- End .bg-lightergray -->
 
-            <div class="mb10"></div><!-- space -->
-            
-            <div class="no-overflow">
-                <div class="container">
-                    <header class="title-block text-center mb60">
-                        <h2 class="title-underblock custom text-uppercase text-center mb20"><span>More Services</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque adip silis isci <br> alias cumque nemo cum iure ullam, quaerat, asperiores quasi.</p>
-                    </header>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service vertical text-right wow fadeInLeft">
+            <div class="owl-carousel aboutus-carousel popup-gallery">
+                <a href="images/aboutus-slide1.jpg" class="zoom-item"><img src="images/aboutus-slide1.jpg" alt="Aboutus slide 1"></a>
+                <a href="images/aboutus-slide2.jpg" class="zoom-item"><img src="images/aboutus-slide2.jpg" alt="Aboutus slide 2"></a>
+                <a href="images/aboutus-slide3.jpg" class="zoom-item"><img src="images/aboutus-slide3.jpg" alt="Aboutus slide 3"></a>
+                <a href="images/aboutus-slide4.jpg" class="zoom-item"><img src="images/aboutus-slide4.jpg" alt="Aboutus slide 4"></a>
+                <a href="images/aboutus-slide5.jpg" class="zoom-item"><img src="images/aboutus-slide5.jpg" alt="Aboutus slide 5"></a>
+                <a href="images/aboutus-slide6.jpg" class="zoom-item"><img src="images/aboutus-slide6.jpg" alt="Aboutus slide 6"></a>
+            </div><!-- End .owl-carousel -->
 
-                                <span class="service-icon"><i class="icon-umbrella"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title title-underblock custom  text-uppercase text-right">Hundreds of Features</h3>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam soluta optio natus ducimus est in, enim.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-
-                            <div class="service vertical text-right wow fadeInLeft" data-wow-delay="0.15s">
-
-                                <span class="service-icon"><i class="icon-anchor"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title title-underblock custom  text-uppercase text-right">Bootstrap Based</h3>
-
-                                    <p>Harum repellat quaerat accusantium fuga aliquam dolorum, tempora recusandae minus quibusdam laborum dolor emque susc ipit nisi excepturi, nemo ut, dolorem sit.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-
-
-                            <div class="service vertical text-right wow fadeInLeft" data-wow-delay="0.3s">
-
-                                <span class="service-icon"><i class="icon-doc"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title title-underblock custom text-uppercase text-right">200+ Valid Html Pages</h3>
-
-                                    <p>Reiciendis, ad a fugit quas! Ratione praesentium alias pariatur repellat voluptates, nemo quos officia!</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-md-4 -->
-
-                        <div class="mb30 visible-xs"></div><!-- space -->
-
-                        <div class="col-md-4 hidden-sm">
-                            <img src="images/phone3.png" alt="Phone 2" class="img-responsive center-block wow zoomIn">
-                        </div><!-- End .col-md-4 -->
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service vertical wow fadeInRight">
-
-                                <span class="service-icon"><i class="icon-magic-wand"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title title-underblock custom  text-uppercase">Magic Touch</h3>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsam soluta optio natus ducimus est in, enim.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-
-                            <div class="service vertical wow fadeInRight" data-wow-delay="0.15s">
-
-                                <span class="service-icon"><i class="icon-moustache"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title title-underblock custom  text-uppercase">Boss of Templates</h3>
-
-                                    <p>Harum repellat quaerat accusantium fuga aliquam dolorum, tempora recusandae minus quibusdam laborum dolor emque susc ipit nisi excepturi, nemo ut, dolorem sit.</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-
-                            <div class="service vertical wow fadeInRight" data-wow-delay="0.3s">
-
-                                <span class="service-icon"><i class="icon-energy"></i></span>
-                                <div class="service-content">
-                                    <h3 class="service-title title-underblock custom text-uppercase">Fast and Well coded</h3>
-
-                                    <p>Reiciendis, ad a fugit quas! Ratione praesentium alias pariatur repellat voluptates, nemo quos officia!</p>
-                                </div><!-- End .service-content -->
-                                
-                            </div><!-- End .service -->
-                        </div><!-- End .col-md-4 -->
-                    </div><!-- End .row -->
-                </div><!-- End .container -->
-            </div><!-- End .no-overflow -->
-            
-            <hr class="mt20 mb70 gray">
+            <div class="mb60"></div><!--space -->
 
             <div class="container">
-                <header class="title-block text-center mb60">
-                    <h2 class="title-underblock custom text-uppercase text-center mb20"><span>Testimonials and Partners</span></h2>
+                <header class="title-block text-center mb80">
+                    <h2 class="title-border custom text-uppercase text-center mb20"><span>Meet our Team?</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque adip silis isci <br> alias cumque nemo cum iure ullam, quaerat, asperiores quasi.</p>
                 </header>
+
+                <div class="home-team-carousel owl-carousel center-top-nav no-radius white-nav">
+                    <div class="team-member team-animate-social">
+                        <figure>
+                            <img src="images/team/steve.jpg" alt="Steve" class="img-responsive">
+                            <figcaption>
+                                <div class="social-icons text-center">
+                                    <a href="#" class="social-icon icon-facebook add-tooltip" title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-google-plus add-tooltip" title="Google Plus">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-skype add-tooltip" title="Skype">
+                                        <i class="fa fa-skype"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-linkedin add-tooltip" title="Linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </div><!-- End .social-icons -->
+                            </figcaption>
+                        </figure>
+                        <h3>Steve Johnson</h3>
+                        <p class="member-desc">Ceo - <span>Director</span></p>
+                    </div><!-- End .team-member -->
+
+                    <div class="team-member team-animate-social">
+                        <figure>
+                            <img src="images/team/jane.jpg" alt="Jane" class="img-responsive">
+                            <figcaption>
+                                <div class="social-icons text-center">
+                                    <a href="#" class="social-icon icon-facebook add-tooltip" title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-twitter add-tooltip" title="Twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-google-plus add-tooltip" title="Google Plus">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-skype add-tooltip" title="Skype">
+                                        <i class="fa fa-skype"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-linkedin add-tooltip" title="Linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </div><!-- End .social-icons -->
+                            </figcaption>
+                        </figure>
+                        <h3>Barbara Susanne</h3>
+                        <p class="member-desc">Developer - <span>Senior</span></p>
+                    </div><!-- End .team-member -->
+
+                    <div class="team-member team-animate-social">
+                        <figure>
+                            <img src="images/team/barbara.jpg" alt="Barbara" class="img-responsive">
+                            <figcaption>
+                                <div class="social-icons text-center">
+                                    <a href="#" class="social-icon icon-facebook add-tooltip" title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-twitter add-tooltip" title="Twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-google-plus add-tooltip" title="Google Plus">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-linkedin add-tooltip" title="Linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </div><!-- End .social-icons -->
+                            </figcaption>
+                        </figure>
+                        <h3>Barbara Beyonce</h3>
+                        <p class="member-desc">Designer - <span>Senior</span></p>
+                    </div><!-- End .team-member -->
+
+                    <div class="team-member team-animate-social">
+                        <figure>
+                            <img src="images/team/eric.jpg" alt="Eric" class="img-responsive">
+                            <figcaption>
+                                <div class="social-icons text-center">
+                                    <a href="#" class="social-icon icon-facebook add-tooltip" title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-twitter add-tooltip" title="Twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-skype add-tooltip" title="Skype">
+                                        <i class="fa fa-skype"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-linkedin add-tooltip" title="Linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </div><!-- End .social-icons -->
+                            </figcaption>
+                        </figure>
+                        <h3>Eric Dean Doe</h3>
+                        <p class="member-desc">Developer - <span>Junior</span></p>
+                    </div><!-- End .team-member -->
+
+                    <div class="team-member team-animate-social">
+                        <figure>
+                            <img src="images/team/steve.jpg" alt="Steve" class="img-responsive">
+                            <figcaption>
+                                <div class="social-icons text-center">
+                                    <a href="#" class="social-icon icon-facebook add-tooltip" title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-twitter add-tooltip" title="Twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-google-plus add-tooltip" title="Google Plus">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-skype add-tooltip" title="Skype">
+                                        <i class="fa fa-skype"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-linkedin add-tooltip" title="Linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </div><!-- End .social-icons -->
+                            </figcaption>
+                        </figure>
+                        <h3>Steve Again</h3>
+                        <p class="member-desc">Designer - <span>Junior</span></p>
+                    </div><!-- End .team-member -->
+                    <div class="team-member team-animate-social">
+                        <figure>
+                            <img src="images/team/jane.jpg" alt="Jane" class="img-responsive">
+                            <figcaption>
+                                <div class="social-icons text-center">
+                                    <a href="#" class="social-icon icon-facebook add-tooltip" title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-twitter add-tooltip" title="Twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-google-plus add-tooltip" title="Google Plus">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="#" class="social-icon icon-skype add-tooltip" title="Skype">
+                                        <i class="fa fa-skype"></i>
+                                    </a>
+                                </div><!-- End .social-icons -->
+                            </figcaption>
+                        </figure>
+                        <h3>Sarah Susanne</h3>
+                        <p class="member-desc">Developer - <span>Senior</span></p>
+                    </div><!-- End .team-member -->
+                </div><!-- End .owl-carousel -->
+
+                <div class="mb25 hidden-xs hidden-sm"></div><!-- space -->
 
                 <div class="row">
                     <div class="col-md-6">
+                        <h3 class="title-border custom text-uppercase mb40">Testimonials</h3>
                         <div class="owl-carousel testimonial-slider">
                             <div class="testimonial">
                                 <figure>
@@ -1184,6 +956,8 @@
                     </div><!-- End .col-md-6 -->
 
                     <div class="col-md-6">
+                        <h3 class="title-border custom text-uppercase mb40">Our Partners</h3>
+                        
                         <div class="owl-carousel home-clients-carousel">
                             <div class="partner-wrapper">
                                 <div class="partner">
@@ -1228,131 +1002,441 @@
                         </div><!-- End .owl-carousel -->
                     </div><!-- End .col-md-6 -->
                 </div><!-- End .row -->
+                
+                <div class="mb10 mb25-sm"></div><!-- space -->
+
+                <div class="callout callout-vertical bordered">
+                    <h2 class="callout-title">Do you want to work with us? Get in Tocuh with us now...</h2>
+                    <p class="callout-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eos iste assumenda dolor veritatis ducimus nostrum?</p>
+                    <div class="callout-action">
+                        <a href="#" class="btn btn-gray btn-border radius-lger min-width">Check it out!</a>
+                        <a href="#" class="btn btn-dark radius-lger min-width">Buy Now!</a>
+                    </div><!-- End .callout-action -->
+                </div><!-- End .callout -->
             </div><!-- End .container -->
 
-            <div class="mb10 mb40-sm"></div><!-- End .space -->
+            <div class="bg-lightergray pt60">
 
-            <div class="bg-lightergray pt70 pb60">
                 <div class="container">
-                    <header class="title-block text-center mb60">
-                        <h2 class="title-underblock custom text-uppercase text-center mb20"><span>Get in Touch</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque adip silis isci <br> alias cumque nemo cum iure ullam, quaerat, asperiores quasi.</p>
+                    <header class="title-block text-center mb50">
+                        <h2 class="title-border custom text-uppercase text-center mb20"><span>Previous Works</span></h2>
+                        <p>Please check out the small guide below to find what you are looking for. <br> Then <a href="#contact-form-id" class="scrollto"  data-offset="-86">click here</a> to get in touch with us!</p>
                     </header>
+                    
+                    <ul id="portfolio-filter" class="bordered text-center">
+                        <li class="active"><a href="#" data-filter="*">All</a></li>
+                        <li><a href="#" data-filter=".design">Design</a></li>
+                        <li><a href="#" data-filter=".fashion">Fashion</a></li>
+                        <li><a href="#" data-filter=".illustration">Illustration</a></li>
+                        <li><a href="#" data-filter=".video">Video</a></li>
+                        <li><a href="#" data-filter=".photography">Photography</a></li>
+                    </ul>
+                </div><!-- End .container -->
 
+                <div id="portfolio-item-container" class="no-margin graybg max-col-4 popup-gallery" data-layoutmode="fitRows">
+                    <div class="portfolio-item portfolio-meta-slidedown push design">
+                        <figure>
+                            <a href="images/portfolio/aboutme/item2.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item2.jpg" alt="portfolio item name" class="img-responsive"></a>
+                        </figure>
+                        <div class="portfolio-meta">
+                            <h3 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h3>
+                            <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
+                            <a class="portfolio-favourite" href="#" title="Favourite">
+                                <i class="fa fa-heart-o"></i>
+                                <span>8</span>
+                            </a>
+                        </div><!-- End .portfolio-meta -->                            
+                    </div><!-- End .portfolio-item -->
+
+                    <div class="portfolio-item portfolio-meta-slidedown push fashion">
+                        <figure>
+                            <a href="images/portfolio/aboutme/item12.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item12.jpg" alt="portfolio item name" class="img-responsive"></a>
+                        </figure>
+                        <div class="portfolio-meta">
+                            <h3 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h3>
+                            <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
+                            <a class="portfolio-favourite" href="#" title="Favourite">
+                                <i class="fa fa-heart-o"></i>
+                                <span>8</span>
+                            </a>
+                        </div><!-- End .portfolio-meta -->                            
+                    </div><!-- End .portfolio-item -->
+
+                    <div class="portfolio-item portfolio-meta-slidedown push">
+                        <figure>
+                            <a href="images/portfolio/aboutme/item4.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item4.jpg" alt="portfolio item name" class="img-responsive"></a>
+                        </figure>
+                        <div class="portfolio-meta">
+                            <h3 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h3>
+                            <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
+                            <a class="portfolio-favourite" href="#" title="Favourite">
+                                <i class="fa fa-heart-o"></i>
+                                <span>8</span>
+                            </a>
+                        </div><!-- End .portfolio-meta -->                            
+                    </div><!-- End .portfolio-item -->
+
+                    <div class="portfolio-item portfolio-meta-slidedown push illustration">
+                        <figure>
+                            <a href="images/portfolio/aboutme/item1.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item1.jpg" alt="portfolio item name" class="img-responsive"></a>
+                        </figure>
+                        <div class="portfolio-meta">
+                            <h3 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h3>
+                            <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
+                            <a class="portfolio-favourite" href="#" title="Favourite">
+                                <i class="fa fa-heart-o"></i>
+                                <span>8</span>
+                            </a>
+                        </div><!-- End .portfolio-meta -->                            
+                    </div><!-- End .portfolio-item -->
+
+                    <div class="portfolio-item portfolio-meta-slidedown push fashion video">
+                        <figure>
+                            <a href="images/portfolio/aboutme/item7.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item7.jpg" alt="portfolio item name" class="img-responsive"></a>
+                        </figure>
+                        <div class="portfolio-meta">
+                            <h3 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h3>
+                            <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
+                            <a class="portfolio-favourite" href="#" title="Favourite">
+                                <i class="fa fa-heart-o"></i>
+                                <span>8</span>
+                            </a>
+                        </div><!-- End .portfolio-meta -->                            
+                    </div><!-- End .portfolio-item -->
+
+                    <div class="portfolio-item portfolio-meta-slidedown push photography">
+                        <figure>
+                            <a href="images/portfolio/aboutme/item6.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item6.jpg" alt="portfolio item name" class="img-responsive"></a>
+                        </figure>
+                        <div class="portfolio-meta">
+                            <h3 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h3>
+                            <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
+                            <a class="portfolio-favourite" href="#" title="Favourite">
+                                <i class="fa fa-heart-o"></i>
+                                <span>8</span>
+                            </a>
+                        </div><!-- End .portfolio-meta -->                            
+                    </div><!-- End .portfolio-item -->
+
+                    <div class="portfolio-item portfolio-meta-slidedown push design video">
+                        <figure>
+                            <a href="images/portfolio/aboutme/item10.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item10.jpg" alt="portfolio item name" class="img-responsive"></a>
+                        </figure>
+                        <div class="portfolio-meta">
+                            <h3 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h3>
+                            <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
+                            <a class="portfolio-favourite" href="#" title="Favourite">
+                                <i class="fa fa-heart-o"></i>
+                                <span>8</span>
+                            </a>
+                        </div><!-- End .portfolio-meta -->                            
+                    </div><!-- End .portfolio-item -->
+
+                    <div class="portfolio-item portfolio-meta-slidedown push video photography">
+                        <figure>
+                            <a href="images/portfolio/aboutme/item8.jpg" class="zoom-item" title="Portfolio Item Description"><img src="images/portfolio/aboutme/item8.jpg" alt="portfolio item name" class="img-responsive"></a>
+                        </figure>
+                        <div class="portfolio-meta">
+                            <h3 class="portfolio-title"><a href="single-portfolio.html">Cool Buggy</a></h3>
+                            <div class="portfolio-tags"><a href="#">Design</a>, <a href="#">Love</a></div>
+                            <a class="portfolio-favourite" href="#" title="Favourite">
+                                <i class="fa fa-heart-o"></i>
+                                <span>8</span>
+                            </a>
+                        </div><!-- End .portfolio-meta -->                            
+                    </div><!-- End .portfolio-item -->
+                </div><!-- End #portfolio-item-container -->
+
+                <div class="container">
+                    <div class="pt40 pb60 text-center">
+                        <div class="mb10"></div><!-- space -->
+                        <h4 class="mb20">Want to see more of our portfolio? Click the button below...</h4>
+                        <a href="" class="btn btn-custom btn-border min-width radius-lger">Check out Portfolio</a>
+                    </div><!-- End text-center -->
+                </div><!-- End .container -->
+
+            </div><!-- End .bg-lightergray -->
+
+            <div class="mb70 mb55-sm"></div><!-- space -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h3 class="title-border custom text-uppercase mb30 wow fadeInUp">More About Us</h3>
+                        <h5 class="lead wow fadeInUp" data-wow-delay="0.05s">What we do? How we do and why we do? This will help you to understand these... Learn more about us and get to know us better!</h5>
+                        <ul class="fa-ul">
+                            <li class="wow fadeInUp" data-wow-delay="0.1s"><i class="fa-li fa fa-chevron-circle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nisi quam fuga quasi rerum expedita numquam cum reprehenderit voluptas.</li>
+                            <li class="wow fadeInUp" data-wow-delay="0.2s"><i class="fa-li fa fa-chevron-circle-right"></i>Sed ut perspiciatis unde omnis iste natus.</li>
+                            <li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa-li fa fa-chevron-circle-right"></i>Quaerat deleniti sed quod error repellat rerum ut temporibus ipsam corporis eius maiores minima reprehenderit obcaecati necessitatibus, neque quas.</li>
+                            <li class="wow fadeInUp" data-wow-delay="0.4s"><i class="fa-li fa fa-chevron-circle-right"></i>Maecenas sed diam eget risus varius reprehe nderit obcaecati necessitatibus, neque quas..</li>
+                        </ul>
+                    </div><!-- End .col-md-7 -->
+
+                    <div class="mb50-sm visible-xs visible-sm"></div><!-- space -->
+
+                    <div class="col-md-5">
+                        <img src="images/mac-ss.png" alt="Mac" class="img-responsive wow zoomIn center-block mt10-r">
+                    </div><!-- End .col-md-5 -->
+                </div><!-- End .row -->
+
+                <div class="mb65"></div><!-- space -->
+
+                <div class="row">
+
+                    <div class="col-md-7 col-md-push-5">
+                        <h3 class="title-border custom text-uppercase mb30 wow fadeInUp">Our Experiences</h3>
+                        <h5 class="lead wow fadeInUp" data-wow-delay="0.05s">What we do? How we do and why we do? This will help you to understand these... Learn more about us and get to know us better!</h5>
+                        
+                        <p class=" wow fadeInUp" data-wow-delay="0.15s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aut, laudantium asperiores? Excepturi in ipsum consequuntur, assumenda unde, deleniti nemo? Qui enim, aliquam fugit! Explicabo rem, iusto. Harum, suscipit, fuga?</p>
+                        <p class=" wow fadeInUp" data-wow-delay="0.25s">Ut deleniti voluptatibus voluptate eveniet fuga officia quos quae asperiores voluptatum ratione, amet reiciendis sed beatae nihil, pariatur culpa aut voluptates sint ipsa. Eveniet, odio rem repellendus fugit numquam in?</p>
+                    </div><!-- End .col-md-7 -->
+
+                    <div class="mb35-sm visible-xs visible-sm"></div><!-- space -->
+
+                    <div class="col-md-5 col-md-pull-7">
+                        <img src="images/mac-ss2.png" alt="Mac" class="img-responsive wow zoomIn center-block mt10-r">
+                    </div><!-- End .col-md-5 -->
+                </div><!-- End .row -->
+
+            </div><!-- End .container -->
+
+            <hr class="gray mt70 mb70"><!-- space -->
+
+            <div class="container">
+                <header class="title-block text-center mb80">
+                    <h2 class="title-border custom text-uppercase text-center mb20"><span>Latest News</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id reiciendis inventore. <br>Unde Molestias architect qQuia, ratione, ducimus! </p>
+                </header>
+                <div class="home-blogposts-carousel owl-carousel center-top-nav white-nav no-radius">
+                    <article class="entry entry-box">
+                        <div class="entry-media">
+                            <figure>
+                                <a href="single.html">
+                                    <img src="images/blog/post1.jpg" alt="Entry Title">
+                                </a>
+                            </figure>
+                        </div><!-- End .entry-media -->
+
+                        <div class="entry-content-wrapper">
+                            <span class="entry-date">20<span>Feb</span></span>
+                            <span class="entry-format"><i class="fa fa-file-image-o"></i></span>
+
+                            <h2 class="entry-title"><a href="single.html">Donec interdum condimentum erat.</a></h2>
+                        
+
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum condimentum erat..</p>
+                            </div><!-- End .entry-content -->
+                        </div><!-- End .entry-content-wrapper -->
+
+                        <footer class="entry-footer clearfix">
+                            <span class="entry-cats">
+                                <span class="entry-label"><i class="fa fa-tag"></i></span><a href="#">Cars</a>, <a href="#">Design</a>
+                            </span><!-- End .entry-tags -->
+
+                            <a href="#" class="entry-readmore text-right">Read More <i class="fa fa-angle-right"></i></a>
+                        </footer>
+                    </article>
+                    <article class="entry entry-box">
+                        <div class="entry-media embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="//player.vimeo.com/video/30173582?color=ffffff" width="500" height="281" allowfullscreen></iframe>
+                        </div><!-- End .entry-media -->
+
+                        <div class="entry-content-wrapper">
+                            <span class="entry-date">10<span>Feb</span></span>
+                            <span class="entry-format"><i class="fa fa-file-video-o"></i></span>
+
+                            <h2 class="entry-title"><a href="single.html">Sit amet, consectetur adipiscing.</a></h2>
+                        
+
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum condimentum erat..</p>
+                            </div><!-- End .entry-content -->
+                        </div><!-- End .entry-content-wrapper -->
+
+                        <footer class="entry-footer clearfix">
+                            <span class="entry-cats">
+                                <span class="entry-label"><i class="fa fa-tag"></i></span><a href="#">Life</a>
+                            </span><!-- End .entry-tags -->
+
+                            <a href="#" class="entry-readmore text-right">Read More <i class="fa fa-angle-right"></i></a>
+                        </footer>
+                    </article>
+                    <article class="entry entry-box">
+                        <div class="entry-media">
+                            <figure>
+                                <a href="single.html">
+                                    <img src="images/blog/post4.jpg" alt="Entry Title">
+                                </a>
+                            </figure>
+                        </div><!-- End .entry-media -->
+
+                        <div class="entry-content-wrapper">
+                            <span class="entry-date">06<span>Feb</span></span>
+                            <span class="entry-format"><i class="fa fa-file-image-o"></i></span>
+
+                            <h2 class="entry-title"><a href="single.html">Ipsa quasi praesentium eos.</a></h2>
+                        
+
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum condimentum erat..</p>
+                            </div><!-- End .entry-content -->
+                        </div><!-- End .entry-content-wrapper -->
+
+                        <footer class="entry-footer clearfix">
+                            <span class="entry-cats">
+                                <span class="entry-label"><i class="fa fa-tag"></i></span><a href="#">Nature</a>, <a href="#">Design</a>
+                            </span><!-- End .entry-tags -->
+
+                            <a href="#" class="entry-readmore text-right">Read More <i class="fa fa-angle-right"></i></a>
+                        </footer>
+                    </article>
+                    <article class="entry entry-box">
+                        <div class="entry-media">
+                            <figure>
+                                <a href="single.html">
+                                    <img src="images/blog/post5.jpg" alt="Entry Title">
+                                </a>
+                            </figure>
+                        </div><!-- End .entry-media -->
+
+                        <div class="entry-content-wrapper">
+                            <span class="entry-date">02<span>Feb</span></span>
+                            <span class="entry-format"><i class="fa fa-file-image-o"></i></span>
+
+                            <h2 class="entry-title"><a href="single.html">dolor sit amet, consectetur sie.</a></h2>
+                        
+
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum condimentum erat..</p>
+                            </div><!-- End .entry-content -->
+                        </div><!-- End .entry-content-wrapper -->
+
+                        <footer class="entry-footer clearfix">
+                            <span class="entry-cats">
+                                <span class="entry-label"><i class="fa fa-tag"></i></span><a href="#">Travel</a>, <a href="#">Life</a>
+                            </span><!-- End .entry-tags -->
+
+                            <a href="#" class="entry-readmore text-right">Read More <i class="fa fa-angle-right"></i></a>
+                        </footer>
+                    </article>
+                </div><!-- End .blog-related-carousel -->
+                <div class="text-center">
+                    <div class="mb40 mb15-xs"></div><!-- space -->
+                    <h4 class="mb20">Want to see more of our posts? Click the button below...</h4>
+                    <a href="" class="btn btn-custom btn-border min-width radius-lger">Check out Blog</a>
+                </div><!-- End .text-center -->
+            </div><!-- End .container -->
+
+            <div class="mb60"></div><!-- space -->
+
+            <div class="bg-lightergray pt60 pb20">
+                <div class="container">
                     <div class="row">
-                        <div class="col-sm-8">
-                            <h2 class="title-underblock dark mb30">Get In Touch</h2>
-                            <form action="php/mail.php" method="post" id="contact-form">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="contactname" class="input-desc">Name</label>
-                                            <input type="text" class="form-control" id="contactname" name="contactname" placeholder="Your Name" required>
-                                        </div><!-- End .from-group -->
-                                    </div><!-- End .col-md-6 -->
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="contactlastname" class="input-desc">LastName</label>
-                                            <input type="text" class="form-control" id="contactlastname" name="contactlastname" placeholder="Your Lastname">
-                                        </div><!-- End .from-group -->
-                                    </div><!-- End .col-md-6 -->
-                                </div><!-- End .row -->
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="contactemail" class="input-desc">Email</label>
-                                            <input type="email" class="form-control" id="contactemail" name="contactemail" placeholder="Your Email" required>
-                                        </div><!-- End .from-group -->
-                                    </div><!-- End .col-md-6 -->
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="contactsubject" class="input-desc">Subject</label>
-                                            <input type="text" class="form-control" id="contactsubject" name="contactsubject" placeholder="Subject">
-                                        </div><!-- End .from-group -->
-                                    </div><!-- End .col-md-6 -->
-                                </div><!-- End .row -->
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="contactmessage" class="input-desc">Message</label>
-                                            <textarea class="form-control" rows="6" id="contactmessage" name="contactmessage" placeholder="Your Message" required></textarea>
-                                        </div><!-- End .from-group -->
+                        <div class="col-md-3 col-xs-6 count-container smallest text-center">
+                            <span class="count-icon"><i class="icon-diamond"></i></span>
+                            <span class="count first-color" data-from="0" data-to="724" data-speed="3000" data-refresh-interval="50">0</span>
+                            <h3>Complated Projects</h3>
+                        </div><!-- End .count-container -->
 
-                                        <div class="mb5"></div><!-- space -->
+                        <div class="col-md-3 col-xs-6 count-container smallest text-center">
+                            <span class="count-icon"><i class="icon-heart"></i></span>
+                            <span class="count first-color" data-from="0" data-to="476" data-speed="3000" data-refresh-interval="50">0</span>
+                            <h3>Happy customers</h3>
+                        </div><!-- End .count-container -->
 
-                                        <div class="form-group">
-                                            <input type="submit" class="btn btn-custom min-width" data-loading-text="Sending..." value="Send Message">
-                                        </div><!-- End .from-group -->
-                                    </div><!-- End .col-md-12 -->
-                                </div><!-- End .row -->
-                            </form>
-                        </div><!-- End .col-sm-8 -->
+                        <div class="mb50 visible-sm visible-xs hidden-xss clearfix"></div><!-- space -->
 
-                        <div class="mb40 visible-xs"></div><!-- space -->
+                        <div class="col-md-3 col-xs-6 count-container smallest text-center">
+                            <span class="count-icon"><i class="icon-badge"></i></span>
+                            <span class="count first-color" data-from="0" data-to="89" data-speed="3000" data-refresh-interval="50">0</span>
+                            <h3>Given Awards</h3>
+                        </div><!-- End .count-container -->
 
-                        <div class="col-sm-4">
-
-                            <h3 class="mb20">Find Us</h3>
-                            <ul class="contact-list">
-                                <li><strong>Office:</strong> Mimar Sinan Mh. Atatürk Caddesi,<br> Konak/İzmir, 35100 - Türkiye</li>
-                                <li><strong>Email:</strong> <a href="mailto:puffde@gmail.com">puffde@gmail.com</a></li>
-                                <li><strong>Mobile:</strong> +90 0 (535) 778 21 44</li>
-                                <li><strong>Phone:</strong> +90 0 (222) 883 11 54</li>
-                            </ul>
-                            
-                            <ul class="contact-list">
-                                <li><strong>Office:</strong> Çankaya Mh, Can Caddesi, <br>  Odunpazarı/Eskişehir 26100 - Türkiye</li>
-                                <li><strong>Email:</strong> <a href="mailto:eonyeony@gmail.com">eonyeony@gmail.com</a></li>
-                                <li><strong>Mobile:</strong> +90 0 (538) 873 85 58</li>
-                                <li><strong>Phone:</strong> +90 0 (228) 442 12 23</li>
-                            </ul>
-
-                            <div class="mb20"></div><!-- space -->
-
-                            <h4 class="mb20">Social Media</h4>
-                            <div class="social-icons">
-                                <a href="#" class="social-icon icon-facebook add-tooltip first" data-placement="top" title="Like us on Facebook">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-twitter add-tooltip" data-placement="top" title="Find us at Twitter">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-google-plus add-tooltip" data-placement="top" title="Find us at Google+">
-                                    <i class="fa fa-google-plus"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-skype add-tooltip" data-placement="top" title="Contact us via Skype">
-                                    <i class="fa fa-skype"></i>
-                                </a>
-                                <a href="#" class="social-icon icon-linkedin add-tooltip" data-placement="top" title="Find us at Linkedin">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </div><!-- End .social-icons -->
-                            
-                        </div><!-- End .col-sm-4 -->
+                        <div class="col-md-3 col-xs-6 count-container smallest text-center">
+                            <span class="count-icon"><i class="icon-share"></i></span>
+                            <span class="count first-color" data-from="0" data-to="1174" data-speed="3000" data-refresh-interval="50">0</span>
+                            <h3>Times Shared</h3>
+                        </div><!-- End .count-container -->
                     </div><!-- End .row -->
                 </div><!-- End .container -->
-            </div><!-- End .bg-lighetgray -->
 
-            <div class="bg-image callout callout-vertical larger no-border no-margin fullwidth" data-bgattach="images/backgrounds/index/bg1.jpg">
-                <div class="mb10"></div><!-- space -->
-                <h2 class="callout-title text-white">Do you Like the Boss Templeate? Purchase Now and enjoy!</h2>
-                <p class="callout-desc text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, consequatur distinctio laborum, ad blanditiis sint nisi vero, molestias qui repellat..</p>
-                <div class="mb10"></div><!-- space -->
-                <div class="callout-action">
-                    <a href="#" class="btn btn-white btn-border radius-lger min-width">Check it out!</a>
-                    <a href="#" class="btn btn-white radius-lger min-width">Buy Now!</a>
-                </div><!-- End .callout-action -->
-                <div class="mb10"></div><!-- space -->
-            </div><!-- End .callout -->
+            </div><!-- End .lightergray -->
+
+            <div class="mb70"></div><!-- space -->
+
+            <div class="container" id="contact-form-id">
+                <header class="title-block text-center mb50">
+                    <h2 class="title-border custom text-uppercase text-center mb20"><span>Get in Touch</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id reiciendis inventore. <br>Unde Molestias architect quia, ratione, ducimus! </p>
+                </header>
+                <form action="php/mail.php" method="post" id="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="contactname" class="input-desc">Name</label>
+                                <input type="text" class="form-control" id="contactname" name="contactname" placeholder="Your Name" required>
+                            </div><!-- End .from-group -->
+                        </div><!-- End .col-md-6 -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="contactlastname" class="input-desc">LastName</label>
+                                <input type="text" class="form-control" id="contactlastname" name="contactlastname" placeholder="Your Lastname">
+                            </div><!-- End .from-group -->
+                        </div><!-- End .col-md-6 -->
+                    </div><!-- End .row -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="contactemail" class="input-desc">Email</label>
+                                <input type="email" class="form-control" id="contactemail" name="contactemail" placeholder="Your Email" required>
+                            </div><!-- End .from-group -->
+                        </div><!-- End .col-md-6 -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="contactsubject" class="input-desc">Subject</label>
+                                <input type="text" class="form-control" id="contactsubject" name="contactsubject" placeholder="Subject">
+                            </div><!-- End .from-group -->
+                        </div><!-- End .col-md-6 -->
+                    </div><!-- End .row -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="contactmessage" class="input-desc">Message</label>
+                                <textarea class="form-control" rows="6" id="contactmessage" name="contactmessage" placeholder="Your Message" required></textarea>
+                            </div><!-- End .from-group -->
+                            <div class="form-group text-center">
+                                <div class="checkbox">
+                                  <label class="custom-checkbox-wrapper">
+                                    <span class="custom-checkbox-container">
+                                        <input type="checkbox" name="contactselfemail" value="true">
+                                        <span class="custom-checkbox-icon"></span>
+                                    </span>
+                                   <span>Send me a copy to my e-mail address!</span>
+                                  </label>
+                                </div><!-- End .checkbox -->
+                            </div><!-- End .form-group -->
+
+                            <div class="mb5"></div><!-- space -->
+
+                            <div class="form-group text-center">
+                                <input type="submit" class="btn btn-custom btn-border min-width radius-lger" data-loading-text="Sending..." value="Send Message">
+                            </div><!-- End .from-group -->
+                        </div><!-- End .col-md-12 -->
+                    </div><!-- End .row -->
+                </form>
+                <div class="mb20 hidden-sm hidden-xs"></div><!-- space -->
+            </div><!-- End .container -->
+
         </div><!-- End #content -->
 
         <footer id="footer" class="footer-custom" role="contentinfo">
-            <div id="footer-inner" class="no-padding-bt-lg">
+            <div id="footer-inner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 main-widget">
+                        <div class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3 col-xs-10 col-xs-push-1">
                             <div class="widget">
-                                <div class="corporate-widget">
+                                <div class="corporate-widget text-center">
                                     <span class="footer-logo">BOSS</span><!-- End .footer-logo -->
                                     <p>We are a creative company, who works with passion and love. We provide the best services you need. We help you to get better...</p>
 
@@ -1365,7 +1449,7 @@
                                     </address>
                                     
                                     <span class="social-icons-label">Find Us at:</span>
-                                    <div class="social-icons">
+                                    <div class="social-icons no-margin text-center">
                                         <a href="#" class="social-icon icon-facebook" title="Facebook">
                                             <i class="fa fa-facebook"></i>
                                         </a>
@@ -1384,61 +1468,6 @@
                                     </div><!-- End .social-icons -->
 
                                 </div><!-- End corporate-widget -->
-                            </div><!-- End .widget -->
-                        </div><!-- End .col-md-3 -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h4>Categories</h4>
-                                <ul class="links">
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Templates (10)</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Business (8)</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Corporate (7)</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Wordpress Themes (5)</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Wordpress Plugins (4)</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Bootstrap Components (14)</a></li>
-                                </ul>
-                            </div><!-- End .widget -->
-
-                            <div class="widget">
-                                <h4>TagCloud</h4>
-                                <div class="tagcloud clearfix">
-                                    <a href="#">Bootstrap</a>
-                                    <a href="#">Wordpress</a>
-                                    <a href="#">Html5</a>
-                                    <a href="#">Css3</a>
-                                    <a href="#">Jquery</a>
-                                    <a href="#">Multipurpose</a>
-                                    <a href="#">Corporate</a>
-                                    <a href="#">Creative</a>
-                                </div><!-- End .tagcloud -->
-                            </div><!-- End .widget -->
-                        </div><!-- End .col-md-3 -->
-
-                        <div class="clearfix visible-sm"></div><!-- End .clearfix -->
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h4>Twitter Feed</h4>
-                                <div class="twitter-feed-widget">
-                                    
-                                </div><!-- End .twitter-feed-widget -->
-                            </div><!-- End .tagcloud -->
-                        </div><!-- End .col-md-3 -->
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h4>Flickr Feed</h4>
-                                <ul class="flickr-widget flickr-widget-two clearfix"></ul>
-                            </div><!-- End .widget -->
-                            <div class="widget">
-                                <h4>Newsletter</h4>
-                                <div class="newsletter-widget">
-                                    <p>Join our newsletter and follow the latest trends of bootstrap.</p>
-                                    <form action="#" id="newsletter-widget-form">
-                                        <input type="email" class="form-control " placeholder="Join our newsletter..." required>
-                                        <button type="submit" title="Join Now!" class="btn btn-custom "><i class="fa fa-envelope"></i></button>
-                                    </form>
-                                </div><!-- End .newsletter-widget -->
                             </div><!-- End .widget -->
                         </div><!-- End .col-md-3 -->
                     </div><!-- End .row -->
